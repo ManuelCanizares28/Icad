@@ -36,11 +36,12 @@ nav {
 }
 
 .products-button {
+    border: none;
     font-size: 15px;
-    border:none;
     background-color: #fff;
     cursor: pointer;
     margin:10px;
+
 }
 
 .dropdown-products-content {
@@ -54,9 +55,15 @@ nav {
 
 .text-1{
     color: #060619;
+    text-align: left;
+    background-color: #fff;
+    border: none;
     margin: 10px;
     font-family: 'BaikalVAR', Arial, Helvetica, sans-serif;
-    font-size: 25px;
+    width: 350px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 2px;
     text-decoration: none;
     margin-left: 740px;
 }
@@ -68,17 +75,22 @@ nav {
 .text-2{
     color: #060619;
     font-family: 'BaikalVAR', Arial, Helvetica, sans-serif;
-    font-size: 25px;
+    font-size: 18px;
     margin-left: 740px;
     text-decoration: none;
+    border: none;
+    background-color: #fff;
+    width: 350px;
+    height: 40px;
+    text-align: left;
 }
 
 .text-2:hover {
     background-color: #E4E4FD;
 }
 
-.dropdown-products-content button {
-    margin-top: 50px;
+.button-products {
+    margin-top: 30px;
     margin-left: 700px;
     background-color: #3E3EFF;
     color: #fff;
@@ -216,7 +228,7 @@ nav {
     height: 600px;
     display: flex;
     justify-content: center;
-    margin-top: 10%;
+    margin-top: 3%;
 }
 
 .container-2 {
@@ -287,7 +299,7 @@ nav {
     height: 600px;
     display: flex;
     justify-content: center;
-    margin-top: 10%;
+    margin-top: 3%;
 }
 
 .container-3 {
@@ -317,7 +329,7 @@ nav {
     height: 600px;
     display: flex;
     justify-content: center;
-    margin-top: 10%;
+    margin-top: 3%;
 }
 
 .container-4 {
