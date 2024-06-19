@@ -85,9 +85,12 @@ nav {
     font-size: 20px;
     width: 250px;
     height: 50px ;
-    border-radius: 10px;
     border:none;
     cursor: pointer;
+}
+
+.dropdown-products-content button:hover {
+    box-shadow: 0px 0px 10px rgba(62, 62, 255, 0.5);
 }
 
 .contact-now {
@@ -101,7 +104,10 @@ nav {
     margin-top: -75px;
     cursor: pointer;
     font-size: 15px;
-    border-radius: 10px;
+}
+
+.contact-now:hover {
+    box-shadow: 0px 0px 10px rgba(62, 62, 255, 0.5);
 }
 
 .drop-products {
@@ -189,7 +195,6 @@ nav {
     height: 50px;
     border: none;
     cursor: pointer;
-    border-radius: 10px;
 }
 
 .main-button:hover {
@@ -247,9 +252,13 @@ nav {
     background-color: #3E3EFF;
     font-size: 20px;
     border: none;
-    border-radius: 10px;
-    margin-top: 80px;
+    margin-top: 60px;
     margin-left: 80px;
+}
+
+.container-2 button:hover {
+    box-shadow: 0px 0px 10px rgba(62, 62, 255, 0.5);
+    cursor: pointer;
 }
 
 .container-2 .icad-nest{
@@ -299,6 +308,11 @@ nav {
     color: #E4E4FD;
 }
 
+.morada {
+    width: 600px;
+    margin-left: 45%;
+}
+
 .main-container-4 {
     height: 600px;
     display: flex;
@@ -307,22 +321,63 @@ nav {
 }
 
 .container-4 {
+    display: flex;
     width: 80%;
     background-color: #FAFAFF;
 }
 
-.img-container4 {
-    width: 600px;
-    margin-left: 45%;
+.sub-text-4 {
+    font-family: 'BaikalVAR', Arial, Helvetica, sans-serif;
+    width: 500px;
+    margin-left: -10%;
+    margin-top: 10%;
 }
 
-.container-4 .logo-evolve{
-    margin-bottom: 70%;
+.container-4 h1{
+    width: 400px;
+    font-family: 'PP Supply Sans', Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    color:#3E3EFF;
+    margin-top: 14%;
+    margin-left: -45%;
 }
 
-.logo-evolve img{
-    width: 150px;
+.text-4 {
+    font-family: 'BaikalVAR', Arial, Helvetica, sans-serif;
+    margin-top: 35%;
+    margin-left: -35%;
+    width: 400px;
 }
+
+.button-container4 {
+    width: 200px;
+    height: 50px;
+    margin-top: 45%;
+    margin-left: -35%;
+    background-color: #3E3EFF;
+    font-size: 15px;
+    color: #fff;
+    border: none;
+}
+
+.button-container4:hover {
+    box-shadow: 0px 0px 10px rgba(62, 62, 255, 0.5);
+    cursor: pointer;
+}
+
+.container-4 a {
+    display: inline-block;
+    justify-content: center;
+    margin-top: 530px;
+    margin-left: 70px;
+    color:#3E3EFF;
+}
+
+.logo-evolve {
+    margin-left: -90%;
+    margin-top: -40%;
+}
+
 
 .logo-footer {
     width: 120px;
@@ -401,6 +456,10 @@ nav {
     border: none;
 }
 
+.footer-button:hover {
+    box-shadow: 0px 0px 10px rgba(62, 62, 255, 0.5);
+}
+
 .products-footer {
     font-family: 'BaikalVAR',Arial, Helvetica, sans-serif;
     margin-left: 300px;
@@ -431,15 +490,15 @@ nav {
     margin-top: -28%;
 }
 
-.plans-footer h2{
+.plans-footer h2 {
     font-size: 14px;
 }
 
-.plans-footer ul{
+.plans-footer ul {
     list-style: none;
 }
 
-.plans-footer a{
+.plans-footer a {
     display: inline-block;
     width: 150px;
     text-decoration: none;
@@ -459,7 +518,7 @@ nav {
     font-size: 14px;
 }
 
-.learn-footer ul{
+.learn-footer ul {
     list-style: none;
 }
 
@@ -483,7 +542,7 @@ nav {
     font-size: 14px;
 }
 
-.assistance-footer ul{
+.assistance-footer ul {
     list-style: none;
 }
 
