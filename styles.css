@@ -1,0 +1,517 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'PP Supply Sans';
+    src: url('fonts/PPSupplySans-Light.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BaikalVAR';
+    src: url('fonts/BaikalVAR-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+    width: 95%;
+    height: 100px;
+    margin: 20px;
+    background-color: #fff;
+}
+
+.logo {
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+nav {
+    width: 600px;
+    margin-left: 55%;
+    margin-top: -37px;
+}
+
+.products-button {
+    font-size: 15px;
+    border:none;
+    background-color: #fff;
+    cursor: pointer;
+    margin:10px;
+}
+
+.dropdown-products-content {
+    width: 100%;
+    display: none;
+    height: 200px;
+    background-color: #fff;
+    position: absolute;
+    justify-content: center;
+}
+
+.text-1{
+    color: #060619;
+    margin: 10px;
+    font-family: 'BaikalVAR', Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    margin-left: 740px;
+}
+
+.text-1:hover {
+    background-color: #E4E4FD;
+}
+
+.text-2{
+    color: #060619;
+    font-family: 'BaikalVAR', Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-left: 740px;
+    text-decoration: none;
+}
+
+.text-2:hover {
+    background-color: #E4E4FD;
+}
+
+.dropdown-products-content button {
+    margin-top: 50px;
+    margin-left: 700px;
+    background-color: #3E3EFF;
+    color: #fff;
+    font-size: 20px;
+    width: 250px;
+    height: 50px ;
+    border-radius: 10px;
+    border:none;
+    cursor: pointer;
+}
+
+.contact-now {
+    width: 110px;
+    height: 50px;
+    background-color: #3E3EFF;
+    color: #fff;
+    border: none;
+    margin: 10px;
+    margin-right: 20px;
+    margin-top: -75px;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.drop-products {
+    margin-left: -20px;
+}
+
+.product-icon {
+    margin-top: -10px;
+}
+
+.show {
+    display: block;
+}
+
+.plans-button {
+    font-size: 15px;
+    border: none;
+    margin: 10px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.learn-explore {
+    font-size: 15px;
+    border: none;
+    margin: 10px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.support {
+    font-size: 15px;
+    border: none;
+    margin: 10px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.chevron-up {
+    display: none;
+}
+
+.show-2 {
+    display: inline;
+}
+
+.main-container-1 {
+    display: flex;
+    justify-content: center;
+    height: 700px;
+}
+
+.container-1 {
+    text-align: left;
+    margin-top: 40px;
+    background: linear-gradient(to right,  #F1F1FE, #3E3EFF);
+    width: 80%;
+}
+
+.text-1-container {
+    font-size: 60px;
+    font-family: 'PP Supply Sans', Arial, Helvetica, sans-serif;
+    color: #3E3EFF;
+    margin: 10px;
+    width: 600px;
+    margin-top: -40%;
+    margin-left: 5%;
+}
+
+.container-1 p{
+    width: 450px;
+    font-family: 'BaikalVAR', Arial, Helvetica, sans-serif;
+    margin-left: 5%;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.main-button {
+    margin-top: 70px;
+    margin-left: 5%;
+    font-size: 30px;
+    background-color: #3E3EFF;
+    color: #fff;
+    width: 300px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.main-button:hover {
+    box-shadow: 0px 0px 10px rgba(62, 62, 255, 0.5);
+}
+
+.main-container-1 img{
+    width: 550px;
+    margin-left: 50%;
+}
+
+.zapatilla-morada {
+    width: 600px;
+    margin-left: 48%;
+    margin-top: -150px;
+}
+
+.main-container-2 {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.container-2 {
+    background-color: #F1F1FE;
+    width: 80%;
+}
+.sub-title {
+    width: 300px;
+    margin-top: -35%;
+    font-family: Arial, Helvetica, sans-serif; 
+    margin-left: 80px;
+}
+
+.container-2 h1 {
+    font-size: 70px;
+    width: 600px;
+    font-family: 'PP Supply Sans', Arial, Helvetica, sans-serif;
+    color: #3E3EFF;
+    margin-left: 75px;
+}
+
+.container-2 p{
+    width: 400px;
+    font-size: 15px;
+    font-family: 'BaikalVAR', Arial, Helvetica, sans-serif;
+    margin-left: 80px;
+}
+
+.container-2 button {
+    width: 200px;
+    height: 50px;
+    color: #fff;
+    background-color: #3E3EFF;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 80px;
+    margin-left: 80px;
+}
+
+.container-2 .icad-nest{
+    width: 200px;
+    margin-left: -35%;
+}
+
+.container-2 .icad-discovery {
+    width: 200px;
+}
+
+.logo-nest{
+    margin-top: 90px;
+    margin-left: 70px;
+}
+
+.logo-nest img{
+    width: 200px;
+    height: 200px;
+}
+.logo-discovery {
+    margin-left: 30px;
+}
+
+.main-container-3 {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.container-3 {
+    width: 80%;
+    background-color: #232241;
+}
+
+.main-container-3 img {
+    width: 600px;
+}
+
+.main-container-3 h1 {
+    font-family: 'PP Supply Sans', Arial, Helvetica, sans-serif;
+    width: 500px;
+    font-size: 84px;
+    margin-left: 63%;
+    margin-top: -40%;
+    color: #E4E4FD;
+}
+
+.main-container-4 {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.container-4 {
+    width: 80%;
+    background-color: #FAFAFF;
+}
+
+.img-container4 {
+    width: 600px;
+    margin-left: 45%;
+}
+
+.container-4 .logo-evolve{
+    margin-bottom: 70%;
+}
+
+.logo-evolve img{
+    width: 150px;
+}
+
+.logo-footer {
+    width: 120px;
+    margin-top: 80px;
+    margin-left: 40px;
+}
+
+.main-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    margin-top: 10%;
+    width: 80%;
+    height: 650px;
+    background-color: #fff;
+    border-top: 10px solid #3E3EFF;
+}
+
+.text-direction {
+    font-size: 14px;
+    font-family: 'BaikalVAR', Arial, Helvetica, sans-serif;
+    width: 150px;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.text-email {
+    font-size: 14px;
+    font-family: 'BaikalVAR', Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.text-about {
+    font-size: 14px;
+    font-family: 'BaikalVAR', Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.redes {
+    display: flex;
+    width: 180px;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.facebook img{
+    width: 28px;
+}
+
+.instagram img {
+    width: 28px;
+}
+
+.youtube img {
+    width: 28px;
+}
+
+.linkedin img {
+    width: 28px;
+}
+
+.footer-button {
+    color: #fff;
+    width: 135px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #3E3EFF;
+    margin-top: 50px;
+    margin-left: 40px;
+    cursor: pointer;
+    border: none;
+}
+
+.products-footer {
+    font-family: 'BaikalVAR',Arial, Helvetica, sans-serif;
+    margin-left: 300px;
+    margin-top: -39%;
+}
+
+.products-footer h2 {
+    font-size: 14px;
+}
+
+.products-footer ul {
+    list-style: none;
+}
+
+.products-footer a {
+    color: #000;
+    width: 180px;
+    display: inline-block;
+    margin: 15px;
+    font-size: 14px;
+    margin-left: -0px;
+    text-decoration: none;
+}
+
+.plans-footer {
+    font-family: 'BaikalVAR', Arial, Helvetica, sans-serif;
+    margin-left: 525px;
+    margin-top: -28%;
+}
+
+.plans-footer h2{
+    font-size: 14px;
+}
+
+.plans-footer ul{
+    list-style: none;
+}
+
+.plans-footer a{
+    display: inline-block;
+    width: 150px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #000;
+    margin: 15px;
+    margin-left: 0px;
+}
+
+.learn-footer {
+    font-family: 'BaikalVAR', Arial, Helvetica, sans-serif;
+    margin-left: 725px;
+    margin-top: -18%;
+}
+
+.learn-footer h2 {
+    font-size: 14px;
+}
+
+.learn-footer ul{
+    list-style: none;
+}
+
+.learn-footer a {
+    display: inline-block;
+    width: 150px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #000;
+    margin: 15px;
+    margin-left: 0px;
+}
+
+.assistance-footer{
+    font-family: 'BaikalVAR', Arial, Helvetica, sans-serif;
+    margin-left: 960px;
+    margin-top: -19%;
+}
+
+.assistance-footer h2{
+    font-size: 14px;
+}
+
+.assistance-footer ul{
+    list-style: none;
+}
+
+.assistance-footer a {
+    font-size: 14px;
+    display: inline-block;
+    width: 140px;
+    margin: 15px;
+    margin-left: 0px;
+    color: #000;
+    text-decoration: none;
+}
+
+.license-footer {
+    display: inline-block;
+    width: 500px;
+    margin-top: 28%;
+    margin-left: 20px;
+}
+
+.license-footer a{
+    font-size: 12px;
+    font-family: 'BaikalVAR', Arial, Helvetica, sans-serif;
+    margin: 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+
