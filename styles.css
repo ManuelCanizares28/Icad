@@ -35,6 +35,46 @@ nav {
     margin-top: -37px;
 }
 
+.shoe-dropdown {
+    width: 100%;
+    height: 500px;
+    background-color: #fff;
+    position: absolute;
+}
+
+.making-production-modeling {
+    margin: 10px;
+    width: 400px;
+    height: 40px;
+    background-color:#fff;
+    border: none;
+    font-size: 15px;
+    margin-left: 20px;
+    text-align: left;
+    padding: 10px;
+}
+
+.making-production-modeling:hover {
+    background-color: #E4E4FD;
+}
+
+.modeling-modeling {
+    margin: 10px;
+    width: 400px;
+    height: 40px;
+    background-color: #fff;
+    font-size: 15px;
+    margin-left: 20px;
+    border: none;
+    text-align: left;
+    padding: 10px;
+}
+
+.modeling-modeling:hover {
+    background-color: #E4E4FD;
+}
+
+
 .dropdown-business {
     display: none;
     width: 100%;
@@ -42,6 +82,7 @@ nav {
     background-color: #fff;
     position: absolute;
 }
+
 
 .show-business {
     display: block;
@@ -60,14 +101,6 @@ nav {
     height: 200px;
 }
 
-.close-container {
-    width: 100px;
-    border: none;
-    margin-top: -90%;
-    margin-left: 90%;
-    background-color: #fff;
-}
-
 
 .container-business {
     width: 50%;
@@ -77,12 +110,13 @@ nav {
 .making-production {
     margin: 10px;
     width: 400px;
-    height: 30px;
+    height: 40px;
     background-color:#fff;
     border: none;
     font-size: 15px;
     margin-left: 20px;
     text-align: left;
+    padding: 10px;
 }
 
 .making-production:hover {
@@ -92,12 +126,13 @@ nav {
 .modeling {
     margin: 10px;
     width: 400px;
-    height: 30px;
+    height: 40px;
     background-color: #fff;
     font-size: 15px;
     margin-left: 20px;
     border: none;
     text-align: left;
+    padding: 10px;
 }
 
 .modeling:hover {
@@ -107,12 +142,13 @@ nav {
 .design {
     margin: 10px;
     width: 400px;
-    height: 30px;
+    height: 40px;
     background-color: #fff;
     font-size: 15px;
     margin-left: 20px;
     border: none;
     text-align: left;
+    padding: 10px;
 }
 
 .design:hover {
@@ -122,12 +158,13 @@ nav {
 .insole {
     margin: 10px;
     width: 400px;
-    height: 30px;
+    height: 40px;
     background-color: #fff;
     font-size: 15px;
     margin-left: 20px;
     border: none;
     text-align: left;
+    padding: 10px;
 }
 
 .insole:hover {
@@ -264,6 +301,7 @@ nav {
     font-size: 18px;
     text-decoration: none;
     margin-left: 740px;
+    padding: 10px;
 }
 
 .button-business:hover {
@@ -282,6 +320,7 @@ nav {
     width: 350px;
     height: 40px;
     text-align: left;
+    padding: 10px;
 }
 
 .button-education:hover {
@@ -291,7 +330,7 @@ nav {
 
 .button-products {
     margin-top: 30px;
-    margin-left: 700px;
+    margin-left: 740px;
     background-color: #3E3EFF;
     color: #fff;
     font-size: 20px;
@@ -304,6 +343,7 @@ nav {
 .button-products:hover {
     box-shadow: 0px 0px 10px rgba(62, 62, 255, 0.5);
 }
+
 
 .contact-now {
     width: 110px;
@@ -360,6 +400,10 @@ nav {
 
 .chevron-up {
     display: none;
+}
+
+.products-button.active .chevron-up {
+    display: inline;
 }
 
 .show-2 {
