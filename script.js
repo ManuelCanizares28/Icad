@@ -3,3 +3,6 @@ function myFunction() {
     document.getElementById('chevron-up').classList.toggle('show-2');
 }
 
+function businessFunction() {
+    document.getElementById('dropdown-business').classList.toggle('show-business');
+}

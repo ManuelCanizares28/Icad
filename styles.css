@@ -35,13 +35,212 @@ nav {
     margin-top: -37px;
 }
 
+.dropdown-business {
+    display: none;
+    width: 100%;
+    height: 300px;
+    background-color: #fff;
+    position: absolute;
+}
+
+.show-business {
+    display: block;
+}
+
+.linea-vertical {
+    width: 5px;
+    height: 300px;
+    background-color: #E4E4FD;
+    margin-left: 33%;
+    margin-top: -225px;
+}
+
+.main-container-business{
+    width: 50%;
+    height: 200px;
+}
+
+.close-container {
+    width: 100px;
+    border: none;
+    margin-top: -90%;
+    margin-left: 90%;
+    background-color: #fff;
+}
+
+
+.container-business {
+    width: 50%;
+    margin-left: 50%;
+}
+
+.making-production {
+    margin: 10px;
+    width: 400px;
+    height: 30px;
+    background-color:#fff;
+    border: none;
+    font-size: 15px;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.making-production:hover {
+    background-color: #E4E4FD;
+}
+
+.modeling {
+    margin: 10px;
+    width: 400px;
+    height: 30px;
+    background-color: #fff;
+    font-size: 15px;
+    margin-left: 20px;
+    border: none;
+    text-align: left;
+}
+
+.modeling:hover {
+    background-color: #E4E4FD;
+}
+
+.design {
+    margin: 10px;
+    width: 400px;
+    height: 30px;
+    background-color: #fff;
+    font-size: 15px;
+    margin-left: 20px;
+    border: none;
+    text-align: left;
+}
+
+.design:hover {
+    background-color: #E4E4FD;
+}
+
+.insole {
+    margin: 10px;
+    width: 400px;
+    height: 30px;
+    background-color: #fff;
+    font-size: 15px;
+    margin-left: 20px;
+    border: none;
+    text-align: left;
+}
+
+.insole:hover {
+    background-color: #E4E4FD;
+}
+
+.production-text {
+    font-family: 'PP Supply Sans', Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color:#E4E4FD;
+    margin-top: -40%;
+    width: 500px;
+    height: 40px;
+    margin-left: -25%;
+}
+
+.text-business {
+    font-family: 'BaikalVAR', Arial, Helvetica, sans-serif;
+    margin-left: -25%;
+    font-size: 14px;
+}
+
+.discovery-logo {
+    width: 100px;
+    margin-left: -20%;
+    margin-top: 8%;
+}
+
+.nest-production {
+    width: 130px;
+    margin-left: 20%;
+}
+
+.icad-last {
+    width: 60px;
+    margin-left: 20%;
+}
+
+.discovery-container {
+    width: 300px;
+}
+
+.button-discovery {
+    width: 50px;
+    height: 30px;
+    background-color: #E4E4FD;
+    font-family: 'PP Supply Sans', Arial, Helvetica, sans-serif;
+    color: #3E3EFF;
+    border: none;
+    margin-left: -17%;
+    margin-top: 3%;
+}
+
+.button-discovery:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(62, 62, 255, 0.5);
+}
+
+.button-production {
+    width: 50px;
+    height: 30px;
+    background-color: #E4E4FD;
+    font-family: 'PP Supply Sans', Arial, Helvetica, sans-serif;
+    color: #3E3EFF;
+    border: none;
+    margin-left: 28%;
+}
+
+.button-production:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(62, 62, 255, 0.5);
+}
+
+.button-icad-last {
+    width: 50px;
+    height: 30px;
+    background-color: #E4E4FD;
+    font-family: 'PP Supply Sans', Arial, Helvetica, sans-serif;
+    color:#3E3EFF;
+    border: none;
+    margin-left: 29%;
+} 
+
+.button-icad-last:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(62, 62, 255, 0.5);
+}
+
+.text-discovery {
+    font-family: 'BaikalVAR', Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    width: 239px;
+}
+
+.text-production {
+    width: 220px;
+    margin-top: -57px;
+    font-family: 'BaikalVAR', Arial, Helvetica, sans-serif;
+    margin-left: 30%;
+}
+
+.text-icad-last {
+    width: 200px;
+    margin-left: 60%;
+    margin-top: -57px;
+}
+
 .products-button {
     border: none;
     font-size: 15px;
     background-color: #fff;
     cursor: pointer;
     margin:10px;
-
 }
 
 .dropdown-products-content {
@@ -53,7 +252,7 @@ nav {
     justify-content: center;
 }
 
-.text-1{
+.button-business{
     color: #060619;
     text-align: left;
     background-color: #fff;
@@ -63,16 +262,16 @@ nav {
     width: 350px;
     height: 40px;
     font-size: 18px;
-    border-radius: 2px;
     text-decoration: none;
     margin-left: 740px;
 }
 
-.text-1:hover {
+.button-business:hover {
     background-color: #E4E4FD;
+    cursor: pointer;
 }
 
-.text-2{
+.button-education{
     color: #060619;
     font-family: 'BaikalVAR', Arial, Helvetica, sans-serif;
     font-size: 18px;
@@ -85,7 +284,8 @@ nav {
     text-align: left;
 }
 
-.text-2:hover {
+.button-education:hover {
+    cursor: pointer;
     background-color: #E4E4FD;
 }
 
@@ -101,7 +301,7 @@ nav {
     cursor: pointer;
 }
 
-.dropdown-products-content button:hover {
+.button-products:hover {
     box-shadow: 0px 0px 10px rgba(62, 62, 255, 0.5);
 }
 
@@ -582,6 +782,7 @@ nav {
     text-decoration: none;
     color: #000;
 }
+
 
 
 
