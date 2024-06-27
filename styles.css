@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
 @font-face {
     font-family: 'PP Supply Sans';
     src: url('fonts/PPSupplySans-Light.ttf');
@@ -35,44 +40,190 @@ nav {
     margin-top: -37px;
 }
 
-.shoe-dropdown {
-    width: 100%;
-    height: 500px;
-    background-color: #fff;
-    position: absolute;
-}
-
-.making-production-modeling {
-    margin: 10px;
-    width: 400px;
-    height: 40px;
-    background-color:#fff;
-    border: none;
-    font-size: 15px;
-    margin-left: 20px;
-    text-align: left;
-    padding: 10px;
-}
-
-.making-production-modeling:hover {
+.vertical-design {
+    width: 3px;
+    height: 550px;
     background-color: #E4E4FD;
+    margin-left: 33%;
+    margin-top: -225px;
 }
 
-.modeling-modeling {
-    margin: 10px;
-    width: 400px;
-    height: 40px;
+.container-design {
+    display: none;
+    height: 600px;
     background-color: #fff;
-    font-size: 15px;
-    margin-left: 20px;
-    border: none;
-    text-align: left;
-    padding: 10px;
 }
 
-.modeling-modeling:hover {
-    background-color: #E4E4FD;
+.title-design {
+    display: flex;
+    margin-left: 37%;
+    font-family: 'PP Supply Sans', Arial, Helvetica, sans-serif;
+    color:#3E3EFF;
+    margin-top: -37%;
+    font-size: 28px;
 }
+
+.icad-evolve-design {
+    margin-left: 37%;
+    margin-top: 40px;
+    width: 250px;
+}
+
+.icad-evolve-design img {
+    width: 80px;
+}
+
+.icad-evolve-design button {
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    width: 70px;
+    height: 30px;
+    background-color:#E4E4FD;
+    margin-top: 10px;
+    color: #3E3EFF;
+    font-family: 'PP Supply Sans', Arial, Helvetica, sans-serif;
+    border: none;
+    padding: 8px;
+}
+
+.icad-evolve-design p{
+    margin-top: 20px;
+    font-family: 'BaikalVAR', Arial, Helvetica, sans-serif;
+    color: #000;
+    font-size: 14px;
+}
+
+
+.workspace-design {
+    margin-left: 59%;
+    margin-top: -157px;
+    width: 250px;
+}
+
+.workspace-design button{
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: none;
+    font-family: 'PP Supply Sans', Arial, Helvetica, sans-serif;
+    width: 100px;
+    height: 30px;
+    background-color: #E4E4FD;
+    color:#3E3EFF;
+    padding: 8px;
+}
+
+.workspace-design p {
+    font-family: 'BaikalVAR', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin-top: 20px;
+}
+
+.colorways-design {
+    width: 250px;
+    margin-left: 80%;
+    margin-top: -180px;
+}
+
+.colorways-design button {
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: 15px;
+    padding: 8px;
+    width: 100px;
+    height: 30px;
+    background-color: #E4E4FD;
+    color: #3E3EFF;
+    font-family: 'PP Supply Sans', Arial, Helvetica, sans-serif;
+    border: none;
+}
+
+.colorways-design p {
+    font-size: 14px;
+    font-family: 'BaikalVAR', Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+
+.icad-last-design {
+    margin-left: 37%;
+    margin-top: 100px;
+    width: 200px;
+}
+
+.icad-last-design button {
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 70px;
+    height: 30px;
+    background-color: #E4E4FD;
+    color: #3E3EFF;
+    font-family: 'PP Supply Sans', Arial, Helvetica, sans-serif;
+    border: none;
+    padding: 8px;
+}
+
+.icad-last-design p{
+    font-size: 14px;
+    font-family: 'BaikalVAR',Arial, Helvetica, sans-serif;
+    color: #000;
+    margin-top: 20px;
+}
+
+.plugin-design {
+    margin-left: 59%;
+    width: 230px;
+    margin-top: -88px;
+}
+
+.plugin-design button {
+    width: 70px;
+    height: 30px;
+    background-color: #E4E4FD;
+    color: #3E3EFF;
+    font-family: 'PP Supply Sans', Arial, Helvetica, sans-serif;
+    border: none;
+}
+
+.plugin-design p {
+    margin-top: 20px;
+    font-family: 'BaikalVAR', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #000;
+}
+
+.text-design {
+    margin-left: 37%;
+    font-size: 14px;
+    margin-top: 20px;
+    font-family: 'BaikalVAR', Arial, Helvetica, sans-serif;
+}
+
+.materials-design {
+    width: 250px;
+    margin-left: 80%;
+    margin-top: -138px;
+}
+
+.materials-design button {
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    padding: 8px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: #E4E4FD;
+    color: #3E3EFF;
+    font-family: 'PP Supply Sans', Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+
 
 
 .dropdown-business {
@@ -89,20 +240,236 @@ nav {
 }
 
 .linea-vertical {
-    width: 5px;
+    width: 3px;
     height: 300px;
     background-color: #E4E4FD;
     margin-left: 33%;
     margin-top: -225px;
 }
 
+.vertical-modeling {
+    width: 3px;
+    height: 550px;
+    background-color: #E4E4FD;
+    margin-left: 33%;
+    margin-top: -225px;
+}
+
+.title-modeling {
+    margin-left: 36%;
+    margin-top: -37%;
+    font-size: 28px;
+    font-family: 'PP Supply Sans', Arial, Helvetica, sans-serif;
+    color:#3E3EFF;
+}
+
+.text-modeling {
+    margin-left: 36%;
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: 'BaikalVAR', Arial, Helvetica, sans-serif;
+    color: #000;
+}
+
+.container-modeling {
+    display: none;
+    height: 600px;
+    background-color: #fff;
+}
+
+.icad-last-2 {
+    width: 220px;
+    margin-left: 60%;
+    margin-top: -143px;
+}
+
+.icad-last-2 button{
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    margin-top: 20px;
+    width: 70px;
+    height: 30px;
+    border: none;
+    background-color: #E4E4FD;
+    color:#3E3EFF;
+    font-family: 'PP Supply Sans', Arial, Helvetica, sans-serif;
+}
+
+.icad-last-2 button:hover {
+    box-shadow: 0px 0px 10px rgba(62, 62, 255, 0.5);
+    cursor: pointer;
+}
+
+.icad-last-2 p{
+    font-family: 'BaikalVAR', Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+    width: 250px;
+    color: #000;
+    font-size: 14px;
+}
+
+.icad-lancer {
+    width: 220px;
+    margin-left: 39%;
+    margin-top: 30px;
+}
+
+.icad-lancer button:hover{
+    box-shadow: 0px 0px 10px rgba(62, 62, 255, 0.5);
+    cursor: pointer;
+}
+
+.icad-lancer button {
+    margin-left: 5px;
+    margin-top: 20px;
+    width: 70px;
+    height: 30px;
+    border: none;
+    background-color: #E4E4FD;
+    color:#3E3EFF;
+    font-family: 'PP Supply Sans', Arial, Helvetica, sans-serif;
+}
+
+.icad-lancer p {
+    margin-top: 15px;
+    font-family: 'BaikalVAR', Arial, Helvetica, sans-serif;
+    color: #000;
+    width: 250px;
+    font-size: 14px;
+}
+
+.plugin {
+    width: 220px;
+    margin-left: 82%;
+}
+
+.plugin button {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    margin-top: -83px;
+    width: 70px;
+    height: 30px;
+    border: none;
+    background-color: #E4E4FD;
+    color:#3E3EFF;
+    font-family: 'PP Supply Sans', Arial, Helvetica, sans-serif;
+}
+
+.plugin button:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(62, 62, 255, 0.5);
+}
+
+.plugin p{
+    font-family: 'BaikalVAR', Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.materials-scan {
+    width: 220px;
+    margin-left: 39%;
+    margin-top: 70px;
+}
+
+.materials-scan button {
+    width: 70px;
+    height: 30px;
+    border: none;
+    background-color: #E4E4FD;
+    color:#3E3EFF;
+    font-family: 'PP Supply Sans', Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.materials-scan button:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(62, 62, 255, 0.5);
+}
+
+.materials-scan p {
+    font-family: 'BaikalVAR', Arial, Helvetica, sans-serif;
+    width: 250px;
+    margin-top: 20px;
+    color: #000;
+    font-size: 14px;
+}
+
+.icad-workspace {
+    width: 240px;
+    margin-left: 60%;
+    margin-top: -162px;
+}
+
+.icad-workspace button {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+    margin-left: 5px;
+    margin-top: 15px;
+    border: none;
+    background-color: #E4E4FD;
+    color: #3E3EFF;
+    font-family: 'PP Supply Sans', Arial, Helvetica, sans-serif;
+    padding: 8px;
+}
+
+.icad-workspace button:hover {
+    box-shadow: 0px 0px 10px rgba(62, 62, 255, 0.5);
+    cursor: pointer;
+}
+
+.icad-workspace p {
+    font-family: 'BaikalVAR', Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    color: #000;
+    font-size: 14px
+    ;
+}
+
+.icad-colorways {
+    width: 240px;
+    margin-left: 82%;
+    margin-top: -181px;
+}
+
+.icad-colorways button {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    width: 100px;
+    height: 30px;
+    margin-left: 5px;
+    margin-top: 15px;
+    border: none;
+    background-color: #E4E4FD;
+    color:#3E3EFF;
+    font-family: 'PP Supply Sans', Arial, Helvetica, sans-serif;
+}
+
+.icad-colorways button:hover {
+    box-shadow: 0px 0px 10px rgba(62, 62, 255, 0.5);
+    cursor: pointer;
+}
+
+.icad-colorways p{
+    font-family: 'BaikalVAR', Arial, Helvetica, sans-serif;
+    color: #000;
+    margin-top: 20px;
+    font-size: 14px;
+}  
+
 .main-container-business{
     width: 50%;
     height: 200px;
 }
 
-
 .container-business {
+    display: none;
     width: 50%;
     margin-left: 50%;
 }
@@ -120,6 +487,7 @@ nav {
 }
 
 .making-production:hover {
+    cursor: pointer;
     background-color: #E4E4FD;
 }
 
@@ -136,6 +504,7 @@ nav {
 }
 
 .modeling:hover {
+    cursor: pointer;
     background-color: #E4E4FD;
 }
 
@@ -153,6 +522,7 @@ nav {
 
 .design:hover {
     background-color: #E4E4FD;
+    cursor: pointer;
 }
 
 .insole {
@@ -169,6 +539,7 @@ nav {
 
 .insole:hover {
     background-color: #E4E4FD;
+    cursor: pointer;
 }
 
 .production-text {
